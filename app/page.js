@@ -15,13 +15,13 @@ import {
 
 export default function DetailingBusinessWebsite() {
   const business = {
-    name: "Apex Detailing",
+    name: "Elite Auto Detailing",
     tagline:
       "Professional interior and exterior car detailing that makes your vehicle look brand new.",
     phoneDisplay: "(973) 464-5222",
     phoneLink: "9734645222",
     serviceArea: "Montclair, NJ & surrounding areas",
-    instagram: "@apexdetailing",
+    instagram: "(N/A)",
     instagramLink: "https://instagram.com/apexdetailing",
   };
 
@@ -45,6 +45,7 @@ export default function DetailingBusinessWebsite() {
   const addons = [
     { name: "Carpet Designs", price: "+$15" },
     { name: "Clay Protectant", price: "+$65" },
+    { name: "Overhead Drone Photos", price: "+$35"}
   ];
 
   const gallery = [
@@ -285,8 +286,9 @@ export default function DetailingBusinessWebsite() {
                 >
                   <option>Full Detail - $150</option>
                   <option>Full Detail + Carpet Designs - $165</option>
+                   <option>Full Detail + OverHead Drone Photos - $185 </option>
                   <option>Full Detail + Clay Protectant - $215</option>
-                  <option>Full Detail + Both Add-Ons - $230</option>
+                  <option>Full Detail + All Add-Ons - $265</option>
                 </select>
                 <textarea
                   name="notes"
