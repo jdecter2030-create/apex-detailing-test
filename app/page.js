@@ -18,9 +18,9 @@ export default function DetailingBusinessWebsite() {
     name: "Apex Detailing",
     tagline:
       "Professional interior and exterior car detailing that makes your vehicle look brand new.",
-    phoneDisplay: "(555) 123-4567",
-    phoneLink: "5551234567",
-    serviceArea: "Caldwell, NJ & surrounding areas",
+    phoneDisplay: "(973) 464-5222",
+    phoneLink: "9734645222",
+    serviceArea: "Montclair, NJ & surrounding areas",
     instagram: "@apexdetailing",
     instagramLink: "https://instagram.com/apexdetailing",
   };
