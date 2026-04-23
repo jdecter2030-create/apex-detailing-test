@@ -341,8 +341,6 @@ export default function DetailingBusinessWebsite() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold">Next steps</h3>
                 <div className="mt-6 space-y-4 text-neutral-300">
-                  <p>• Replace "your-form-id" with your real Formspree form ID</p>
-                  <p>• Put in your real phone number</p>
                   <p>• Add real photos to the gallery</p>
                 </div>
               </CardContent>
