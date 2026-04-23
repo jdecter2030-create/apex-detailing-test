@@ -23,15 +23,6 @@ export default function DetailingBusinessWebsite() {
     serviceArea: "Montclair, NJ & Surrounding areas",
     instagram: "Elite Detailing Of New Jersey Instagram",
     instagramLink: "https://www.instagram.com/elitedetailingofnj/",
-    hours: [
-{ day: "Monday", time: "Closed"},
-{ day: "Tuesday", time: "Closed"},
-{ day: "Wednesday", time: "Closed"},
-{ day: "Thursday", time: "closed"},
-{ day: "Friday", time: "4:00 PM - 7:30 PM"},
-{ day: "Saturday", time: "9:00 AM – 6:00 PM" },
-{ day: "Sunday", time: "" },
-  ],
 };
 
   const services = [
