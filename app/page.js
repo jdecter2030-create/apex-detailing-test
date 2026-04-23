@@ -32,12 +32,13 @@ export default function DetailingBusinessWebsite() {
       description:
         "A complete interior and exterior cleaning package designed to refresh your whole vehicle inside and out.",
       includes: [
-        "Exterior hand wash",
+        "Exterior in depth wash",
         "Wheel and tire cleaning",
-        "Interior vacuum",
+        "Deep interior wash",
         "Dashboard and surface wipe down",
         "Window cleaning",
         "Final finish touch-up",
+        "Before and after photos"
       ],
     },
   ];
