@@ -30,17 +30,27 @@ export default function DetailingBusinessWebsite() {
       title: "Full Detail",
       price: "$150",
       description:
-        "A complete interior and exterior cleaning package designed to refresh your whole vehicle inside and out.",
+        "A complete interior and exterior cleaning package designed to refresh your whole vehicle inside and out. Our top seller",
       includes: [
         "Exterior in depth wash",
         "Wheel and tire cleaning",
         "Deep interior wash",
         "Dashboard and surface wipe down",
         "Window cleaning",
-        "Final finish touch-up",
         "Before and after photos"
       ],
     },
+    { title: "Exterior Detail",
+      price: "$60",
+      description: 
+        "A thorough was of the exterior of your car designed to make your car look fresh and glossy",
+      includes: [
+        "Complete wheel and tire scrub",
+        "Exterior window cleaning",
+        "Before and after photos",
+        "Foam cannon spray down"
+      ],
+    }
   ];
 
   const addons = [
@@ -285,7 +295,8 @@ export default function DetailingBusinessWebsite() {
                   onChange={(e) => handleChange("service", e.target.value)}
                   className="w-full rounded-2xl border border-white/10 bg-black/30 px-4 py-3 text-white outline-none"
                 >
-                  <option>Full Detail - $150</option>
+                  <option> Exterior Detail +60</option>
+                  <option>Full Detail + $150</option>
                   <option>Full Detail + Carpet Designs - $165</option>
                    <option>Full Detail + OverHead Drone Photos - $185 </option>
                   <option>Full Detail + Clay Protectant - $215</option>
