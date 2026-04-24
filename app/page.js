@@ -341,7 +341,7 @@ export default function DetailingBusinessWebsite() {
               <CardContent className="p-8">
                 <h3 className="text-3xl font-bold">Times:</h3>
                 <div className="mt-6 space-y-4 text-neutral-300">
-                  <p>• All times are subject to change.</p>
+                  <p> All times are subject to change.</p>
                   <p> Weekend bookings will have a higher confirmation rate</p>
                 </div>
               </CardContent>
