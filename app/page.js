@@ -302,7 +302,7 @@ export default function DetailingBusinessWebsite() {
                 <h3 className="text-2xl font-bold">Contact</h3>
                 <div className="mt-6 space-y-4 text-neutral-300">
                   <p>{business.phoneDisplay}</p>
-                  <p>"(973)303-2279"</p>
+                  <p>(973)303-2279</p>
                   <p>{business.serviceArea}</p>
                   <a
                     href={business.instagramLink}
