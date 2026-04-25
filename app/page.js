@@ -28,33 +28,52 @@ export default function DetailingBusinessWebsite() {
       title: "Full Detail",
       price: "$150",
       description:
-        "A complete interior and exterior cleaning package designed to refresh your whole vehicle inside and out. Our top seller",
+        "our complete package combining both Interior and Exterior services for a total Head-to-toe transformation of your vehicle",
       includes: [
-        "Exterior in depth wash",
-        "Wheel and tire cleaning",
-        "Deep interior wash",
-        "Dashboard and surface wipe down",
-        "Window cleaning",
-        "Before and after photos",
+        "Everything in the Exterior Detail + Interior Detail",
       ],
     },
     {
       title: "Exterior Detail",
-      price: "$60",
+      price: "$75",
       description:
-        "A thorough wash of the exterior of your car designed to make your car look fresh and glossy",
+        "A thourough cleaning of the entire outside of your vehicle, leaving it spotless and shining from bottom to top.",
       includes: [
-        "Complete wheel and tire scrub",
-        "Exterior window cleaning",
-        "Foam cannon spray down",
-        "Before and after photos",
+        "Hand wash",
+        "Wheel & rim scrub",
+        "tire cleaning",
+        "Window wash", 
+        "Door jamb clean",
       ],
     },
+    {
+      title: "Interior Detail",
+      price: "$95",
+      description: 
+      "A deep clean of everthing insode your vehicle, eliminating dirt, odors, and grime from your surface.",
+      includes : [
+          "Full vacuum",
+          "Dashboard and console wipedown",
+          "Floor mat wash",
+          "Cup holder cleaning",
+          "Odor elimination",
+      ]
+    },
+    {
+        title: "Express Wash",
+        price: "$45",
+        description:
+        "A quick wash down of your vehicle, interior wipe and exterior wash, quick but effictive wash for when your short on time",
+        includes : [
+          "Door and window wipedown",
+          "Dashboard and interior surface wipe",
+        ]
+    }
   ];
 
   const addons = [
     { name: "Carpet Designs", price: "+$15" },
-    { name: "Clay Protectant", price: "+$65" },
+    { name: "Wax Protectant", price: "+$65" },
     { name: "Overhead Drone Photos", price: "+$35" },
   ];
 
@@ -250,11 +269,13 @@ export default function DetailingBusinessWebsite() {
                   onChange={(e) => handleChange("service", e.target.value)}
                   className="w-full rounded-2xl border border-white/10 bg-black/30 px-4 py-3 text-white outline-none"
                 >
-                  <option>Exterior Detail - $60</option>
+                  <option>Express Wash - $45</option>
+                  <option>Exterior Detail - $75</option>
+                  <option>Interior Detail - $95</option>
                   <option>Full Detail - $150</option>
                   <option>Full Detail + Carpet Designs - $165</option>
                   <option>Full Detail + Overhead Drone Photos - $185</option>
-                  <option>Full Detail + Clay Protectant - $215</option>
+                  <option>Full Detail + Wax Protectant - $215</option>
                   <option>Full Detail + All Add-Ons - $265</option>
                 </select>
 
