@@ -147,7 +147,6 @@ export default function DetailingBusinessWebsite() {
                     <div>
                       <p className="text-3xl font-black">Clean. Glossy. Ready.</p>
                       <p className="mt-3 max-w-sm text-neutral-300">
-                        Swap this section with your favorite photo once you’re ready.
                       </p>
                     </div>
                   </div>
@@ -303,6 +302,7 @@ export default function DetailingBusinessWebsite() {
                 <h3 className="text-2xl font-bold">Contact</h3>
                 <div className="mt-6 space-y-4 text-neutral-300">
                   <p>{business.phoneDisplay}</p>
+                  <p>"(973)303-2279"</p>
                   <p>{business.serviceArea}</p>
                   <a
                     href={business.instagramLink}
